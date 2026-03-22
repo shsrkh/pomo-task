@@ -7,12 +7,16 @@ A **Pomodoro-based task tracker** built with React and TypeScript. Manage daily 
 
 ## Screenshots
 - Login page:
+<img width="700" height="auto" alt="image" src="https://github.com/user-attachments/assets/ae450ec0-959f-4705-a135-56f9a0be2a88" />
 
 - Main page:
+<img width="700" height="auto" alt="image" src="https://github.com/user-attachments/assets/20e71af4-75a5-4149-8ffc-8878c80fb341" />
 
 - Statistics page:
+<img width="700" height="auto" alt="image" src="https://github.com/user-attachments/assets/a565444c-ee01-422e-a7fc-a588b7e24cf4" />
 
 - Settings form:
+<img width="700" height="auto" alt="image" src="https://github.com/user-attachments/assets/fcd16b3e-340b-4a01-92b2-d03e2b1515b1" />
 
 ## Tech stack
 
