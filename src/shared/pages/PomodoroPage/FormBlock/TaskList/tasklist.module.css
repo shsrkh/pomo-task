@@ -1,0 +1,17 @@
+.taskList {
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 19px;
+  width: 71%;
+  counter-reset: item;
+}
+
+.taskList:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: calc(100% - 15px);
+  background: var(--grayF4);
+  margin-left: -15px;
+  padding-left: 15px;
+}

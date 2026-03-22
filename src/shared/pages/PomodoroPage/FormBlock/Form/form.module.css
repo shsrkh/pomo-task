@@ -1,0 +1,43 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.label {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.input {
+  margin-bottom: 25px;
+  padding: 19px 15px;
+  width: 71%;
+  border: none;
+  background: var(--grayF4);
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.input::placeholder {
+  color: var(--grey99);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.error {
+  position: absolute;
+  top: -15px;
+}
+
+@media all and (max-width: 1340px) {
+  .input {
+    width: 100%;
+  }
+}
