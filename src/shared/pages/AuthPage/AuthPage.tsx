@@ -7,6 +7,7 @@ import { Loading } from "src/shared/components/Loading";
 import { Logo } from "src/shared/pages/AuthPage/Logo";
 import { FormAuth } from "src/shared/pages/AuthPage/FormAuth";
 import { Copyright } from "src/shared/pages/AuthPage/Copyright";
+import { Analytics } from "@vercel/analytics/react"
 
 import styles from "./authpage.module.css";
 
@@ -34,6 +35,7 @@ export const AuthPage = () => {
         authError={authError}
       />
       <Copyright />
+      <Analytics />
     </div>
   );
 };
